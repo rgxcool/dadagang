@@ -1,5 +1,5 @@
 import { Analytics } from '@vercel/analytics/next'
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
 
@@ -13,12 +13,13 @@ export const metadata: Metadata = {
   title: 'Drink Delivery - Order Your Favorite Beverages',
   description: 'Order cold beverages including Coca-Cola, Fanta, Sprite, and Pepsi with fast delivery.',
   generator: 'v0.app',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-  },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 }
 
 export default function RootLayout({
