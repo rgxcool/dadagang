@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Fanta 1L",
+      "price": 120,
+      "deliveryCharge": 30,
+      "stock": 25,
+      "image": "/products/fanta.png"
+    },
+    {
+      "id": 2,
+      "name": "Coca Cola 1L",
+      "price": 130,
+      "deliveryCharge": 30,
+      "stock": 15,
+      "image": "/products/coke.png"
+    },
+    {
+      "id": 3,
+      "name": "Sprite 1L",
+      "price": 125,
+      "deliveryCharge": 30,
+      "stock": 20,
+      "image": "/products/sprite.png"
+    },
+    {
+      "id": 4,
+      "name": "Pepsi 1L",
+      "price": 125,
+      "deliveryCharge": 30,
+      "stock": 18,
+      "image": "/products/pepsi.png"
+    }
+  ]
+}
