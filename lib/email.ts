@@ -1,9 +1,8 @@
 import { Resend } from 'resend';
 import { OrderData } from '@/types/order';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function sendOrderEmail(order: OrderData, adminEmail: string) {
+  const resend = new Resend(process.env.RESEND_API_KEY);
   const mapsUrl = order.mapsUrl || 'N/A';
   
   const emailContent = `
